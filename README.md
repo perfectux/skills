@@ -11,15 +11,35 @@ skills.
 These skills can be used in any product or codebase. They do not assume access to
 PerfectUX.ai projects, schemas, routes, or MCP tools.
 
-- `perfectux-ux-standards`: UX standards workflow for AI-built interfaces.
-  Includes model-facing guidance for combining project context with WCAG, NN/g,
-  ISO 9241-110, service design, inclusive design, and human-AI UX practices.
+- `perfectux-ux-development`: UX guardrails for agentic development. It keeps
+  user tasks, flows, states, feedback, accessibility, and recovery clear while
+  leaving visual style to any active UI skill.
+
+## Pairing With UI Skills
+
+Use `perfectux-ux-development` with any visual, taste, or UI quality skill. The
+UX skill defines the contract; the UI skill decides how it looks.
+
+Examples:
+
+- `Use $perfectux-ux-development with $taste-skill to build this onboarding flow.`
+- `Use $perfectux-ux-development with $ui-ux-pro-max-skill to redesign this dashboard.`
+- `Use $perfectux-ux-development with $impeccable-skill to polish this settings page.`
+
+Division of labor:
+
+- UX skill owns: user job, primary action, flow order, required states, feedback,
+  accessibility, error recovery, permissions, AI/tool approvals, and QA checks.
+- UI skill owns: palette, typography, spacing style, visual density, animation
+  style, illustration, brand mood, and final aesthetic expression.
+- If there is tension, UX only overrides when task completion, safety,
+  accessibility, readability, feedback, or recovery would be harmed.
 
 Future candidates:
 
 - `perfectux-accessibility-review`: WCAG-oriented accessibility review.
-- `perfectux-content-design`: Labels, microcopy, error messages, and empty states.
-- `perfectux-agentic-ui-review`: UX patterns for AI and agentic interfaces.
+- `perfectux-content-ux`: Labels, microcopy, error messages, and empty states.
+- `perfectux-agentic-interaction`: UX patterns for AI and agentic interfaces.
 
 ## PerfectUX.ai Product Skills
 
