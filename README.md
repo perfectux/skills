@@ -35,12 +35,6 @@ Division of labor:
 - If there is tension, UX only overrides when task completion, safety,
   accessibility, readability, feedback, or recovery would be harmed.
 
-Future candidates:
-
-- `perfectux-accessibility-review`: WCAG-oriented accessibility review.
-- `perfectux-content-ux`: Labels, microcopy, error messages, and empty states.
-- `perfectux-agentic-interaction`: UX patterns for AI and agentic interfaces.
-
 ## PerfectUX.ai Product Skills
 
 These skills are specific to the PerfectUX.ai product, codebase, schemas, MCP
