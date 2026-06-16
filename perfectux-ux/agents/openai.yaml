@@ -1,4 +1,0 @@
-interface:
-  display_name: "PerfectUX UX"
-  short_description: "UX quality rules for AI-built interfaces"
-  default_prompt: "Use $perfectux-ux to review and improve this frontend experience."

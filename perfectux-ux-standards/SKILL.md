@@ -1,13 +1,13 @@
 ---
-name: perfectux-ux
-description: UX quality review and improvement workflow for AI-built web interfaces, product flows, landing pages, forms, dashboards, and agentic UI. Use when Codex needs to design, critique, rewrite, or verify frontend UX using usability heuristics, accessibility, information architecture, interaction feedback, content clarity, responsive behavior, trust, and visual polish.
+name: perfectux-ux-standards
+description: General-purpose UX standards workflow maintained by PerfectUX for AI-built web interfaces, product flows, landing pages, forms, dashboards, and agentic UI. Use when Codex needs to design, critique, rewrite, or verify UX using usability heuristics, accessibility, information architecture, interaction feedback, content clarity, responsive behavior, trust, and visual polish. This skill is not specific to the PerfectUX.ai product.
 ---
 
-# PerfectUX UX
+# PerfectUX UX Standards
 
 ## Overview
 
-Use this skill to make AI-generated interfaces more usable, credible, accessible, and production-ready. Treat it as a UX operating system, not a visual trend pack.
+Use this general skill to make AI-generated interfaces more usable, credible, accessible, and production-ready. Treat it as a UX operating system, not a visual trend pack or a PerfectUX.ai product integration.
 
 ## Workflow
 
