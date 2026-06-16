@@ -44,11 +44,15 @@ Division of labor:
 These skills are specific to the PerfectUX.ai product, codebase, schemas, MCP
 tools, or project workflows. Use the `perfectux-app-` namespace for these.
 
-Planned candidates:
+Planned product-specific skills:
 
-- `perfectux-app-task-schemas`: canonical task schema and modify tool rules.
-- `perfectux-app-mcp-workflows`: PerfectUX MCP setup and usage guidance.
-- `perfectux-app-workspaces`: Foundation, launch, marketing, and trust-doc workflows.
+- `perfectux-app-task-workflows`: PerfectUX task schemas, modify-tool usage,
+  approval boundaries, and legacy-field guardrails.
+- `perfectux-app-product-context`: PerfectUX workspace concepts, asset flows,
+  product semantics, and project-specific UX constraints.
+
+These should work from repository context first. MCP-specific guidance can be
+added later as an optional enhancement when the MCP workflow is stable.
 
 Remote:
 
