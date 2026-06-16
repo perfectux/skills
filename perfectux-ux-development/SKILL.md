@@ -1,6 +1,6 @@
 ---
 name: perfectux-ux-development
-description: Use when Codex is building, changing, or reviewing user-facing flows and needs UX guidance for task fit, information architecture, state completeness, feedback, accessibility, error recovery, or AI/tool interactions. Use alongside any UI or visual-design skill; not for visual style.
+description: Use when an AI agent is building, changing, or reviewing user-facing flows and needs UX guidance for task fit, information architecture, state completeness, feedback, accessibility, error recovery, or AI/tool interactions. Use alongside any UI or visual-design skill; not for visual style.
 ---
 
 # PerfectUX UX Development

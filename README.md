@@ -1,6 +1,6 @@
 # PerfectUX Skills
 
-Open Codex skills maintained by PerfectUX.
+Open AI agent skills maintained by PerfectUX.
 
 All skills use the `perfectux-` prefix so the maintainer is clear. The name after
 the prefix distinguishes general-purpose skills from PerfectUX.ai product-specific
