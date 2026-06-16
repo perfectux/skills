@@ -7,17 +7,18 @@ description: General-purpose UX standards workflow maintained by PerfectUX for A
 
 ## Overview
 
-Use this general skill to make AI-generated interfaces more usable, credible, accessible, and production-ready. Treat it as a UX operating system, not a visual trend pack or a PerfectUX.ai product integration.
+Use this general skill to make AI-generated interfaces more usable, credible, accessible, and production-ready. Treat it as a UX operating system, not a visual trend pack or a PerfectUX.ai product integration. The skill is intentionally project-aware: the model must read the host product before applying any general UX rule.
 
 ## Workflow
 
-1. Identify the surface: landing page, product workflow, dashboard, form, settings, AI/chat UI, onboarding, empty/error state, or documentation.
-2. Identify the user's job, primary action, decision context, and risk level. If these are unclear and the change is risky, ask one concise question.
-3. Read the existing implementation, screenshots, copy, route behavior, and design tokens before proposing changes.
-4. Choose the relevant references:
+1. Build a context model from the project: product type, target user, user job, primary action, risk level, route behavior, data/state constraints, design tokens, components, copy voice, and known accessibility requirements.
+2. Identify the surface: landing page, product workflow, dashboard, form, settings, AI/chat UI, onboarding, empty/error state, or documentation.
+3. Choose the relevant standards instead of applying everything mechanically:
+   - Use `references/ai-model-guidance.md` for model-facing instructions that combine project context with industry UX practice.
    - Use `references/foundations.md` for core UX principles and source-backed standards.
    - Use `references/review-rubric.md` for critique, redesign, or QA.
    - Use `references/patterns.md` for surface-specific patterns.
+4. If the user's job, risk, or project constraints are unclear and the change is risky, ask one concise question. Otherwise state assumptions and proceed.
 5. Make the smallest change that materially improves the user's outcome. Do not add decorative complexity unless it clarifies hierarchy, feedback, state, or trust.
 6. Verify with evidence: focused tests, typecheck, browser screenshots for visual work, keyboard/focus checks where applicable, and mobile viewport review.
 
@@ -29,6 +30,7 @@ Use this general skill to make AI-generated interfaces more usable, credible, ac
 - Design complete states: default, loading, empty, error, disabled, success, permission-denied, and long-content cases.
 - Use motion only for hierarchy, feedback, continuity, or state change. Respect reduced motion.
 - Treat accessibility as baseline quality. Use WCAG 2.2 AA as the default target unless the project explicitly requires a different standard.
+- For AI or agentic UI, expose uncertainty, assumptions, tool activity, review points, and recovery paths at the right level for the audience.
 - Avoid fake precision, fake social proof, decorative status labels, and product screenshots that do not represent a real state.
 
 ## Output Expectations

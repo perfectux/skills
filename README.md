@@ -12,6 +12,8 @@ These skills can be used in any product or codebase. They do not assume access t
 PerfectUX.ai projects, schemas, routes, or MCP tools.
 
 - `perfectux-ux-standards`: UX standards workflow for AI-built interfaces.
+  Includes model-facing guidance for combining project context with WCAG, NN/g,
+  ISO 9241-110, service design, inclusive design, and human-AI UX practices.
 
 Future candidates:
 

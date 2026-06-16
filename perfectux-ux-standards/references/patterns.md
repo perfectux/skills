@@ -37,6 +37,10 @@ Use these patterns selectively. The user's context and existing product system t
 - Show uncertainty, sources, assumptions, and pending approvals when relevant.
 - Make agent actions inspectable before committed writes.
 - Provide stop, retry, undo, and edit paths.
+- Set expectations during first use: what the AI can do, what it may get wrong, and what input improves results.
+- During interaction, show progress, tool status, queued work, and whether the user can safely leave or interrupt.
+- When the AI is wrong, help users correct the output without losing context.
+- Over time, make memory, preferences, history, and provenance understandable and controllable.
 - Avoid exposing raw tool JSON to end users unless they are developers and asked for it.
 
 ## Empty, Loading, And Error States

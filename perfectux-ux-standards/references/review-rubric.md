@@ -9,6 +9,14 @@ Use this for audits, redesigns, and final QA. Score mentally by risk and user im
 - Are secondary actions visually subordinate?
 - Does the page answer "what is this, why should I care, what happens next"?
 
+## Project Context Fit
+
+- Does the UX match the product category, audience, and risk level?
+- Does it reuse existing navigation, component patterns, design tokens, and copy voice?
+- Does it account for real data states: loading, empty, error, permissions, latency, long content, and mobile?
+- Are industry standards translated into concrete product decisions instead of applied generically?
+- Are assumptions stated when the project context is incomplete?
+
 ## Information Architecture
 
 - Are navigation labels stable, plain, and mutually exclusive?
@@ -23,6 +31,7 @@ Use this for audits, redesigns, and final QA. Score mentally by risk and user im
 - Can the workflow be completed with keyboard only?
 - Are destructive actions confirmed with clear consequences?
 - Are generated or AI outputs reviewable before irreversible use?
+- Can users stop, retry, edit, undo, or recover from failed AI/tool actions?
 
 ## Accessibility
 
@@ -40,6 +49,7 @@ Use this for audits, redesigns, and final QA. Score mentally by risk and user im
 - Button text is short and action-specific.
 - Error messages explain the problem and the next step.
 - Empty states explain what can be done now.
+- AI uncertainty, assumptions, sources, or missing inputs are explained when they affect user decisions.
 - No fake metrics, fake proof, vague adjectives, or decorative metadata.
 
 ## Visual And Layout Quality
