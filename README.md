@@ -14,6 +14,10 @@ PerfectUX.ai projects, schemas, routes, or MCP tools.
 - `perfectux-ux-development`: UX guardrails for agentic development. It keeps
   user tasks, flows, states, feedback, accessibility, and recovery clear while
   leaving visual style to any active UI skill.
+- `perfectux-content-ux`: UX writing for interface labels, actions, state copy,
+  errors, confirmations, permissions, and AI uncertainty.
+- `perfectux-agentic-interaction`: MVP guardrails for AI and tool-using flows
+  that need visible state, approval, user control, provenance, and recovery.
 
 ## Pairing With UI Skills
 
