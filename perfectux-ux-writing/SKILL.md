@@ -1,9 +1,9 @@
 ---
-name: perfectux-content-ux
+name: perfectux-ux-writing
 description: Use when an AI agent is writing, rewriting, or reviewing interface copy for labels, buttons, forms, empty states, errors, confirmations, permissions, onboarding, or AI uncertainty. Use alongside UX and UI skills; not for brand naming, marketing copy, or visual style.
 ---
 
-# PerfectUX Content UX
+# PerfectUX UX Writing
 
 ## Purpose
 
