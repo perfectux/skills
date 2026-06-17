@@ -6,6 +6,29 @@ All skills use the `perfectux-` prefix so the maintainer is clear. The name afte
 the prefix distinguishes general-purpose skills from PerfectUX.ai product-specific
 skills.
 
+## Install
+
+List available skills:
+
+```bash
+npx skills add PerfectUX/skills --list
+```
+
+Install all PerfectUX skills for Codex globally:
+
+```bash
+npx skills add PerfectUX/skills --skill '*' --agent codex --global
+```
+
+Install a specific skill:
+
+```bash
+npx skills add PerfectUX/skills --skill perfectux-ux-development --agent codex --global
+```
+
+For Claude Code, use `--agent claude-code`; for other agents, replace `codex`
+with the agent key supported by the `skills` CLI.
+
 ## General-Purpose Skills
 
 These skills can be used in any product or codebase. They do not assume access to

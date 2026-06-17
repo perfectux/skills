@@ -1,0 +1,21 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "UX",
+      "description": "Skills for product UX flow design and interface writing.",
+      "skills": [
+        "perfectux-ux-development",
+        "perfectux-ux-writing"
+      ]
+    },
+    {
+      "title": "Agentic UX",
+      "description": "Skills for inspectable, controllable, and recoverable AI workflows.",
+      "skills": [
+        "perfectux-agentic-interaction"
+      ]
+    }
+  ]
+}
