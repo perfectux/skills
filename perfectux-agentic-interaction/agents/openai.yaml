@@ -1,4 +1,4 @@
 interface:
   display_name: "PerfectUX Agentic Interaction"
-  short_description: "MVP UX guardrails for agentic flows"
+  short_description: "Baseline UX guardrails for agentic flows"
   default_prompt: "Use $perfectux-agentic-interaction to make this AI or tool-using flow inspectable, controllable, and recoverable."

@@ -50,6 +50,7 @@ Use this short shape before non-trivial work:
 - Prefer complete states over extra content.
 - Prefer reversible actions over warnings.
 - Prefer plain action copy over decorative labels.
+- For AI, chat, generation, automation, tool-calling, approval, memory, provenance, privacy, or security flows, also use `perfectux-agentic-interaction`.
 - Do not expose raw tool JSON unless the product is developer-facing and the user asked for it.
 
 ## References

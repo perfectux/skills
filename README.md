@@ -16,7 +16,7 @@ PerfectUX.ai projects, schemas, routes, or MCP tools.
   leaving visual style to any active UI skill.
 - `perfectux-ux-writing`: UX writing for interface labels, actions, state copy,
   errors, confirmations, permissions, and AI uncertainty.
-- `perfectux-agentic-interaction`: MVP guardrails for AI and tool-using flows
+- `perfectux-agentic-interaction`: Baseline guardrails for AI and tool-using flows
   that need visible state, approval, user control, provenance, and recovery.
 
 ## Pairing With UI Skills
@@ -26,9 +26,9 @@ UX skill defines the contract; the UI skill decides how it looks.
 
 Examples:
 
-- `Use $perfectux-ux-development with $taste-skill to build this onboarding flow.`
-- `Use $perfectux-ux-development with $ui-ux-pro-max-skill to redesign this dashboard.`
-- `Use $perfectux-ux-development with $impeccable-skill to polish this settings page.`
+- `Use $perfectux-ux-development with your active UI skill to build this onboarding flow.`
+- `Use $perfectux-ux-development with your visual-design skill to redesign this dashboard.`
+- `Use $perfectux-ux-development and $perfectux-agentic-interaction to polish this AI approval flow.`
 
 Division of labor:
 
