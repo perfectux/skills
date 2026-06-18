@@ -61,6 +61,8 @@ Use `perfectux` instead for general UX, copy, accessibility, state completeness,
 - Do not reintroduce `modify_task_proposal`.
 - Do not use legacy public fields such as `colorPalette`, `neutralLight`, `result.*`, or public `newResult` inputs.
 - Let proposal review and approval happen through the tool approval flow.
+- Do not ask for a separate chat confirmation when a tool approval UI or public MCP confirmation preview will be shown.
+- For public PerfectUX MCP, an unconfirmed `modify_*_task` call returns a preview and `confirmationToken`; after user approval, repeat the same tool call with `confirmationToken` to apply.
 - Do not directly overwrite task artifacts from prose when a modify tool exists.
 - Use idempotency keys when action tools require them.
 

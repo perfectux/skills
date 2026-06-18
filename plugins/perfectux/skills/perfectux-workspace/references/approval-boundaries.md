@@ -10,6 +10,7 @@ PerfectUX workspace actions can affect saved project artifacts. Keep the review 
 ## Writes
 
 - Canonical task modifications require schema-driven tools and approval flow.
+- Approval flow means the client/tool approval UI or the public MCP preview plus `confirmationToken`, not an extra chat confirmation stacked on top.
 - Launch, marketing, and docs updates require a clear object, consequence, and recovery path.
 - Use idempotency keys when required by the tool.
 
