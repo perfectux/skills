@@ -1,4 +1,0 @@
-interface:
-  display_name: "PerfectUX UX Writing"
-  short_description: "UX writing for product interfaces"
-  default_prompt: "Use $perfectux-ux-writing to make the interface copy clear, actionable, and recoverable."

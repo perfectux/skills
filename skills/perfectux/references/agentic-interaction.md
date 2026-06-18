@@ -1,13 +1,6 @@
----
-name: perfectux-agentic-interaction
-description: Use when an AI agent is designing, building, or reviewing AI, chat, generation, automation, tool-calling, approval, memory, provenance, privacy, security, or human-in-the-loop workflows. Not for model architecture, prompt engineering, or visual style.
----
+# Agentic Interaction
 
-# PerfectUX Agentic Interaction
-
-## Purpose
-
-Make AI and tool-using flows understandable, controllable, and recoverable. This skill defines baseline interaction guardrails, not model behavior, prompt engineering, or visual design.
+Make AI and tool-using flows understandable, controllable, and recoverable. Own agent state, tool activity, approval points, uncertainty, provenance, memory and data visibility, user controls, recovery, and irreversible-action safeguards.
 
 ## Operating Loop
 
@@ -16,17 +9,7 @@ Make AI and tool-using flows understandable, controllable, and recoverable. This
 3. Expose the minimum state users need to understand what is happening and what they can control.
 4. Verify that users can stop, inspect, approve, retry, edit, undo, or recover where relevant.
 
-## Boundary
-
-Own:
-- Agent state, tool activity, approval points, uncertainty, provenance, memory and data visibility, user controls, recovery, and irreversible-action safeguards.
-
-Defer:
-- Model selection, prompt internals, backend orchestration, visual style, animation style, and raw developer logs unless the surface is developer-facing.
-
-## MVP Contract
-
-Use this internally for AI or tool-using flows:
+Use this baseline contract for AI, automation, or tool-using flows.
 
 - User intent:
 - Agent capability:
@@ -41,6 +24,27 @@ Use this internally for AI or tool-using flows:
 - External tool disclosure:
 - Saved or shared with:
 
+## Fill Rules
+
+- Keep each field short.
+- Ask only when risk cannot be inferred.
+- Treat irreversible writes, payments, permissions, privacy, security, memory, external sharing, and generated content used downstream as high-risk.
+- For low-risk read-only flows, keep controls light but still show status and recovery.
+
+## Required Distinctions
+
+- User input: what the user asked for.
+- Model output: what the AI produced.
+- Tool activity: what external action is happening.
+- Pending approval: what needs user review.
+- Committed result: what has already changed.
+
+## Data And Memory
+
+- State what user content, files, credentials, or account data the agent can access.
+- State whether anything will be saved for future use, sent to an external tool, published, shared, or reused downstream.
+- Provide edit, revoke, delete, or disconnect controls when memory, integrations, credentials, or reusable user data are involved.
+
 ## Guardrails
 
 - Distinguish user input, model output, tool activity, pending approval, and committed result.
@@ -51,8 +55,3 @@ Use this internally for AI or tool-using flows:
 - Provide edit, revoke, delete, or disconnect controls for saved memory, credentials, integrations, or reusable user data.
 - For long-running work, show status and whether the user can safely leave.
 - Hide raw tool JSON from end users unless the product is developer-facing and the user asked for it.
-
-## References
-
-- Use `references/agentic-contract.md` for the MVP interaction contract.
-- Use `references/checks.md` for review and QA.

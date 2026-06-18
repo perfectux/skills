@@ -1,4 +1,29 @@
-# State Copy
+# UX Writing
+
+Make interface text help users understand, decide, act, and recover. Own labels, button text, helper text, empty states, loading text, error messages, success messages, permission copy, confirmations, destructive-action copy, and AI uncertainty copy.
+
+## Writing Rules
+
+- Use the user's language, not implementation terms.
+- Start action labels with specific verbs: `Save changes`, `Invite member`, `Retry payment`.
+- Avoid vague buttons: `Submit`, `Continue`, `OK`, `Done` unless the context makes the result unmistakable.
+- Say what happened, what it means, and what the user can do next.
+- Keep helper text near the control it explains.
+- Do not invent claims, metrics, social proof, policy, or guarantees.
+- Match visible labels and accessible names.
+- Preserve existing product terminology unless it blocks comprehension.
+
+## Copy Contract
+
+- User job:
+- Decision or action:
+- Risk:
+- Required state:
+- Existing product term:
+- Copy intent:
+- Must avoid:
+
+## State Copy
 
 Use these patterns as starting points. Adapt to the product voice and user job.
 

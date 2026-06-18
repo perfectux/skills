@@ -1,0 +1,4 @@
+interface:
+  display_name: "PerfectUX"
+  short_description: "UX, copy, and agentic flow guardrails"
+  default_prompt: "Use $perfectux to make this product flow clear, usable, and recoverable."

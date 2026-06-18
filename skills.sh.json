@@ -3,18 +3,11 @@
   "notGrouped": "bottom",
   "groupings": [
     {
-      "title": "UX",
-      "description": "Skills for product UX flow design and interface writing.",
+      "title": "PerfectUX",
+      "description": "General UX guidance and PerfectUX.ai workspace workflows.",
       "skills": [
-        "perfectux-ux-development",
-        "perfectux-ux-writing"
-      ]
-    },
-    {
-      "title": "Agentic UX",
-      "description": "Skills for inspectable, controllable, and recoverable AI workflows.",
-      "skills": [
-        "perfectux-agentic-interaction"
+        "perfectux",
+        "perfectux-workspace"
       ]
     }
   ]

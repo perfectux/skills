@@ -1,4 +1,0 @@
-interface:
-  display_name: "PerfectUX UX Development"
-  short_description: "UX guardrails for agentic development"
-  default_prompt: "Use $perfectux-ux-development with the active UI skill to make this flow clear, complete, and usable."

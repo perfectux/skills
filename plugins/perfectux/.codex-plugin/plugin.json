@@ -1,0 +1,37 @@
+{
+  "name": "perfectux",
+  "version": "0.1.0",
+  "description": "UX guardrails and PerfectUX.ai workspace workflows for Codex.",
+  "author": {
+    "name": "PerfectUX",
+    "url": "https://perfectux.ai/"
+  },
+  "homepage": "https://perfectux.ai/",
+  "repository": "https://github.com/PerfectUX/skills",
+  "keywords": [
+    "ux",
+    "product",
+    "perfectux",
+    "mcp",
+    "workspace"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "PerfectUX",
+    "shortDescription": "UX guidance and PerfectUX workspace context",
+    "longDescription": "PerfectUX helps Codex improve product UX, interface copy, and agentic flows. For PerfectUX.ai users, it also guides MCP-backed workspace workflows with project artifacts, exports, and schema-driven modification tools.",
+    "developerName": "PerfectUX",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://perfectux.ai/",
+    "defaultPrompt": [
+      "Use PerfectUX to review this product flow.",
+      "Use PerfectUX Workspace with my project context.",
+      "Use PerfectUX to improve this AI approval flow."
+    ],
+    "brandColor": "#111827"
+  }
+}

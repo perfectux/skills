@@ -2,9 +2,15 @@
 
 Reusable agent skills maintained by PerfectUX.
 
-All skills use the `perfectux-` prefix so the maintainer is clear. The name after
-the prefix distinguishes general-purpose skills from PerfectUX.ai product-specific
-skills.
+This repository ships two public skills:
+
+- `perfectux`: general UX, interface copy, product flow, accessibility,
+  recovery, and agentic interaction guidance. It does not require the
+  PerfectUX.ai app or MCP.
+- `perfectux-workspace`: PerfectUX.ai workspace, MCP, project artifact, export,
+  and schema-driven modification workflows.
+
+It also includes a Codex plugin at `plugins/perfectux` that bundles both skills.
 
 ## Install
 
@@ -14,68 +20,57 @@ List available skills:
 npx skills add PerfectUX/skills --list
 ```
 
-Install all PerfectUX skills for Codex globally:
+Install the general UX skill:
 
 ```bash
-npx skills add PerfectUX/skills --skill '*' --agent codex --global
+npx skills add PerfectUX/skills --skill perfectux --agent codex --global
 ```
 
-Install a specific skill:
+Install the PerfectUX.ai workspace skill:
 
 ```bash
-npx skills add PerfectUX/skills --skill perfectux-ux-development --agent codex --global
+npx skills add PerfectUX/skills --skill perfectux-workspace --agent codex --global
 ```
 
 For Claude Code, use `--agent claude-code`; for other agents, replace `codex`
 with the agent key supported by the `skills` CLI.
 
-## General-Purpose Skills
+## Codex Plugin
 
-These skills can be used in any product or codebase. They do not assume access to
-PerfectUX.ai projects, schemas, routes, or MCP tools.
+Codex users can install the `PerfectUX` plugin from `plugins/perfectux` when
+they want both skills as one installable package. The plugin does not embed an
+unauthenticated MCP server config; `perfectux-workspace` automatically uses an
+already configured `perfectux` MCP server when available.
 
-- `perfectux-ux-development`: UX guardrails for agentic development. It keeps
-  user tasks, flows, states, feedback, accessibility, and recovery clear while
-  leaving visual style to any active UI skill.
-- `perfectux-ux-writing`: UX writing for interface labels, actions, state copy,
-  errors, confirmations, permissions, and AI uncertainty.
-- `perfectux-agentic-interaction`: Baseline guardrails for AI and tool-using flows
-  that need visible state, approval, user control, provenance, and recovery.
+## Skill Split
 
-## Pairing With UI Skills
+### `perfectux`
 
-Use `perfectux-ux-development` with any visual, taste, or UI quality skill. The
-UX skill defines the contract; the UI skill decides how it looks.
+Use for any product or codebase. It does not assume access to PerfectUX.ai
+projects, schemas, routes, or MCP tools.
 
 Examples:
 
-- `Use $perfectux-ux-development with your active UI skill to build this onboarding flow.`
-- `Use $perfectux-ux-development with your visual-design skill to redesign this dashboard.`
-- `Use $perfectux-ux-development and $perfectux-agentic-interaction to polish this AI approval flow.`
+- `Use $perfectux with your active UI skill to build this onboarding flow.`
+- `Use $perfectux to polish this AI approval flow.`
 
 Division of labor:
 
-- UX skill owns: user job, primary action, flow order, required states, feedback,
-  accessibility, error recovery, permissions, AI/tool approvals, and QA checks.
+- `perfectux` owns: user job, primary action, flow order, required states,
+  feedback, accessibility, error recovery, permissions, AI/tool approvals,
+  interface copy, and QA checks.
 - UI skill owns: palette, typography, spacing style, visual density, animation
   style, illustration, brand mood, and final aesthetic expression.
 - If there is tension, UX only overrides when task completion, safety,
   accessibility, readability, feedback, or recovery would be harmed.
 
-## PerfectUX.ai Product Skills
+### `perfectux-workspace`
 
-These skills are specific to the PerfectUX.ai product, codebase, schemas, MCP
-tools, or project workflows. Use the `perfectux-app-` namespace for these.
-
-Planned product-specific skills:
-
-- `perfectux-app-task-workflows`: PerfectUX task schemas, modify-tool usage,
-  approval boundaries, and legacy-field guardrails.
-- `perfectux-app-product-context`: PerfectUX workspace concepts, asset flows,
-  product semantics, and project-specific UX constraints.
-
-These should work from repository context first. MCP-specific guidance can be
-added later as an optional enhancement when the MCP workflow is stable.
+Use for PerfectUX.ai projects, workspace data, MCP resources, canonical task
+artifacts, launch packages, marketing campaigns, docs, exports, and
+schema-driven modify tools. It treats PerfectUX MCP as an optional source of
+truth: when MCP is available, it reads resources directly; when unavailable, it
+continues from repo or user-provided context.
 
 Remote:
 
