@@ -17,23 +17,24 @@ It also includes a Codex plugin at `plugins/perfectux` that bundles both skills.
 List available skills:
 
 ```bash
-npx skills add PerfectUX/skills --list
+npx skills add perfectux/skills --list
 ```
 
-Install the general UX skill:
+Install the skill you need:
 
 ```bash
-npx skills add PerfectUX/skills --skill perfectux --agent codex --global
+npx skills add perfectux/skills --skill perfectux
 ```
-
-Install the PerfectUX.ai workspace skill:
 
 ```bash
-npx skills add PerfectUX/skills --skill perfectux-workspace --agent codex --global
+npx skills add perfectux/skills --skill perfectux-workspace
 ```
 
-For Claude Code, use `--agent claude-code`; for other agents, replace `codex`
-with the agent key supported by the `skills` CLI.
+Use `perfectux` for general UX, product flow, interface copy, accessibility,
+and recovery guidance. Use `perfectux-workspace` when working with PerfectUX.ai
+projects, MCP resources, exports, or schema-driven modifications.
+
+To install both skills, run both commands above.
 
 ## Codex Plugin
 
@@ -47,11 +48,12 @@ already configured `perfectux` MCP server when available.
 ### `perfectux`
 
 Use for any product or codebase. It does not assume access to PerfectUX.ai
-projects, schemas, routes, or MCP tools.
+projects, schemas, screens, routes, or MCP tools.
 
 Examples:
 
-- `Use $perfectux with your active UI skill to build this onboarding flow.`
+- `Use $perfectux to improve this onboarding flow.`
+- `Use $perfectux with your active UI skill to build this settings screen.`
 - `Use $perfectux to polish this AI approval flow.`
 
 Division of labor:
@@ -59,8 +61,9 @@ Division of labor:
 - `perfectux` owns: user job, primary action, flow order, required states,
   feedback, accessibility, error recovery, permissions, AI/tool approvals,
   interface copy, and QA checks.
-- UI skill owns: palette, typography, spacing style, visual density, animation
-  style, illustration, brand mood, and final aesthetic expression.
+- UI skill, design system, or project conventions own: palette, typography,
+  spacing style, visual density, animation style, illustration, brand mood, and
+  final aesthetic expression.
 - If there is tension, UX only overrides when task completion, safety,
   accessibility, readability, feedback, or recovery would be harmed.
 
@@ -74,4 +77,4 @@ continues from repo or user-provided context.
 
 Remote:
 
-- `https://github.com/PerfectUX/skills.git`
+- `https://github.com/perfectux/skills.git`
