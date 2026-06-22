@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "perfectux-skills",
+  "description": "PerfectUX agent skills and plugins marketplace.",
+  "owner": {
+    "name": "PerfectUX"
+  },
+  "plugins": [
+    {
+      "name": "perfectux",
+      "description": "UX guardrails and PerfectUX.ai workspace workflows.",
+      "author": {
+        "name": "PerfectUX"
+      },
+      "category": "development",
+      "source": "./plugins/perfectux",
+      "homepage": "https://perfectux.ai/"
+    }
+  ]
+}
