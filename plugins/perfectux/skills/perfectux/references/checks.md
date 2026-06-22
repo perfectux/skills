@@ -47,7 +47,7 @@ Use these checks before final response. Do not output a score unless the user as
 
 For implementation work, verify with the strongest practical subset:
 
-- Focused component or route tests.
+- Focused component, screen, route, or workflow tests.
 - Typecheck or build.
 - Desktop and mobile screenshots.
 - Keyboard tab order and focus visibility checks.

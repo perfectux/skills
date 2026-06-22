@@ -11,13 +11,14 @@ Guide product work toward clear, usable, recoverable UX without owning visual st
 
 ## Operating Loop
 
-1. Read context first: user request, audience, route/screen, existing components, data states, copy, navigation, and active UI skill.
+1. Read context first: user request, audience, screen/route/surface, existing components, data states, copy, navigation, and any active UI skill or design system.
 2. Draft a compact internal UX contract for non-trivial work.
 3. Route the work:
    - Flow, IA, states, accessibility, and recovery: use `references/ux-development.md`.
    - Labels, state copy, errors, confirmations, permissions, or AI uncertainty copy: use `references/ux-writing.md`.
    - AI, chat, generation, automation, tool-calling, approval, memory, provenance, privacy, or security flows: use `references/agentic-interaction.md`.
-4. Hand only UX constraints to UI skills: user job, action priority, required states, feedback, accessibility, and recovery.
+4. When a UI skill is active, hand it only UX constraints: user job, action priority, required states, feedback, accessibility, and recovery.
+   If no UI skill is active, apply those constraints through the product's existing visual system and avoid inventing a new style.
 5. Implement or review the smallest change that improves completion, confidence, safety, or clarity.
 6. Verify relevant checkpoints and report evidence, not taste claims.
 
@@ -27,7 +28,7 @@ Own:
 - User job, primary action, secondary actions, flow order, information architecture, feedback, required states, copy intent, accessibility baseline, error recovery, permissions, AI/tool review points, and user-facing recovery copy.
 
 Defer:
-- Palette, typography, spacing style, illustration, animation style, visual density, brand mood, and overall aesthetic direction. Let the active UI skill decide these.
+- Palette, typography, spacing style, illustration, animation style, visual density, brand mood, and overall aesthetic direction. Let the active UI skill, design system, or project conventions decide these.
 
 Intervene in visual decisions only when they harm task completion, safety, accessibility, readability, focus order, or recovery.
 
@@ -45,7 +46,7 @@ Use this short shape before non-trivial work:
 - Feedback and recovery:
 - Accessibility baseline:
 - AI/tool approvals, if any:
-- UI skill owns:
+- UI skill/design system owns:
 - Must not change:
 
 ## Guidance

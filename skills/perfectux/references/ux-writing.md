@@ -5,7 +5,7 @@ Make interface text help users understand, decide, act, and recover. Own labels,
 ## Writing Rules
 
 - Use the user's language, not implementation terms.
-- Start action labels with specific verbs: `Save changes`, `Invite member`, `Retry payment`.
+- Start action labels with specific verbs: `Save changes`, `Book appointment`, `Retry upload`.
 - Avoid vague buttons: `Submit`, `Continue`, `OK`, `Done` unless the context makes the result unmistakable.
 - Say what happened, what it means, and what the user can do next.
 - Keep helper text near the control it explains.
@@ -31,8 +31,8 @@ Use these patterns as starting points. Adapt to the product voice and user job.
 
 Pattern: missing object + next action.
 
-- `No projects yet. Create a project to start generating assets.`
-- `No invoices match these filters. Clear filters to see all invoices.`
+- `No saved routes yet. Save a route to plan your next trip.`
+- `No drafts match these filters. Clear filters to see all drafts.`
 
 Avoid: marketing copy, blame, or filler.
 
@@ -49,7 +49,7 @@ Avoid: exact progress unless backed by real progress data.
 
 Pattern: failure + data safety + recovery.
 
-- `Payment failed. Your card was not charged. Try another payment method.`
+- `Upload failed. Your file is still on this device. Try again.`
 - `We could not save changes. Your edits are still here. Retry saving.`
 
 Avoid: error codes as the main message unless developer-facing.
@@ -58,8 +58,8 @@ Avoid: error codes as the main message unless developer-facing.
 
 Pattern: completed change + useful next step.
 
-- `Invite sent. You can change this member's role after they join.`
-- `Changes saved. View the updated page.`
+- `Booking confirmed. Add it to your calendar.`
+- `Changes saved. View the updated version.`
 
 Avoid: celebratory copy that hides the next action.
 
@@ -67,8 +67,8 @@ Avoid: celebratory copy that hides the next action.
 
 Pattern: required access + who can help.
 
-- `You need admin access to invite members. Ask an admin to update your role.`
-- `Connect billing to publish this plan.`
+- `You need owner access to change sharing settings. Ask an owner to update your role.`
+- `Enable location access to show nearby pickup points.`
 
 Avoid: dead ends.
 
@@ -76,8 +76,8 @@ Avoid: dead ends.
 
 Pattern: object + consequence + reversibility + final action.
 
-- `Delete "Q2 Launch Plan"? This cannot be undone. Delete plan.`
-- `Publish this page? Customers will see the new version immediately. Publish page.`
+- `Delete "Weekend Route"? This cannot be undone. Delete route.`
+- `Publish this update? Viewers will see the new version immediately. Publish update.`
 
 Avoid: generic `Are you sure?`.
 

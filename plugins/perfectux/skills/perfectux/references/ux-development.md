@@ -12,7 +12,7 @@ Use a UX contract to coordinate agentic development. It should be short, mostly 
 - Feedback and recovery:
 - Accessibility baseline:
 - AI/tool approvals, if any:
-- UI skill owns:
+- UI skill/design system owns:
 - Must not change:
 
 ## Fill Rules
@@ -23,9 +23,9 @@ Use a UX contract to coordinate agentic development. It should be short, mostly 
 - Treat missing loading, empty, error, disabled, success, permission, long-content, and mobile states as implementation work, not follow-up polish.
 - Record visual ownership as a handoff, not an instruction.
 
-## UI Skill Handoff
+## Visual Handoff
 
-Give the active UI skill constraints, not taste directives:
+Give the active UI skill, design system, or existing project conventions constraints, not taste directives:
 
 - What the user must understand.
 - What action must be easiest.
@@ -34,10 +34,10 @@ Give the active UI skill constraints, not taste directives:
 - What recovery paths must be available.
 - What cannot be hidden, delayed, or made decorative.
 
-The UI skill owns how those constraints look.
+The UI skill or existing visual system owns how those constraints look. If no UI skill is active, preserve the product's current visual language while implementing the UX requirements.
 
 ## Conflict Handling
 
 - UX wins only on task completion, safety, accessibility, feedback, state completeness, and recovery.
-- UI wins on visual language, hierarchy expression, styling, motion feel, and brand tone.
-- If a visual choice blocks a UX requirement, ask the UI skill to express the requirement differently rather than taking over visual direction.
+- UI/design-system conventions win on visual language, hierarchy expression, styling, motion feel, and brand tone.
+- If a visual choice blocks a UX requirement, express the requirement within the current visual system rather than taking over visual direction.
