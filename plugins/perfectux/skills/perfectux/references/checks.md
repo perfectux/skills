@@ -34,6 +34,7 @@ Use these checks before final response. Do not output a score unless the user as
 
 - Primary task content remains inside the intended page container after states, recovery copy, side panels, or helper controls are added.
 - Added helper panels do not push the primary reading or action area away from the expected alignment unless that layout shift is an explicit visual-system decision.
+- Added status badges, counts, helper panels, or sidebars do not squeeze the primary heading, action, or reading area; check narrow containers and mobile widths for wrapping, cramped spacing, and preserved task priority.
 - Container utilities are not accidentally overridden by component margins, widths, or grid rules.
 - Long-content screens preserve readable line length without making the main content look unintentionally off-center.
 
