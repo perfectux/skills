@@ -33,6 +33,7 @@ Give the active UI skill, design system, or existing project conventions constra
 - What feedback must appear.
 - What recovery paths must be available.
 - What cannot be hidden, delayed, or made decorative.
+- Which primary content or action area must keep its current container alignment, readable width, and task priority when helper panels or state messages are added.
 
 The UI skill or existing visual system owns how those constraints look. If no UI skill is active, preserve the product's current visual language while implementing the UX requirements.
 

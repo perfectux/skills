@@ -30,6 +30,13 @@ Use these checks before final response. Do not output a score unless the user as
 - Touch/click targets are usable and not crowded.
 - Dynamic status updates are announced when needed.
 
+## Layout Containment
+
+- Primary task content remains inside the intended page container after states, recovery copy, side panels, or helper controls are added.
+- Added helper panels do not push the primary reading or action area away from the expected alignment unless that layout shift is an explicit visual-system decision.
+- Container utilities are not accidentally overridden by component margins, widths, or grid rules.
+- Long-content screens preserve readable line length without making the main content look unintentionally off-center.
+
 ## AI And Tool Use
 
 - User input, model output, tool activity, pending approval, and completed action are distinguishable.
