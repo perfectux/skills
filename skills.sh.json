@@ -3,17 +3,10 @@
   "notGrouped": "bottom",
   "groupings": [
     {
-      "title": "Start here: improve any AI-built product flow",
-      "description": "Use PerfectUX to turn rough AI-generated screens, copy, states, and approval flows into clear, accessible, recoverable product experiences.",
+      "title": "PerfectUX: UX guidance for any codebase",
+      "description": "Use PerfectUX as a non-invasive UX guidance layer for AI agents that pairs with UI skills to improve flows, states, copy, accessibility, recovery, and agentic approvals.",
       "skills": [
         "perfectux"
-      ]
-    },
-    {
-      "title": "For PerfectUX.ai projects and MCP workflows",
-      "description": "Use PerfectUX Workspace when the agent needs project context, exports, task artifacts, launch assets, or schema-driven updates from a PerfectUX.ai workspace.",
-      "skills": [
-        "perfectux-workspace"
       ]
     }
   ]

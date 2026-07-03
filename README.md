@@ -1,10 +1,20 @@
-# PerfectUX Skills
+<div align="center">
+  <a href="https://perfectux.ai">
+    <img src=".github/assets/perfectux-logo.png" alt="PerfectUX" width="160">
+  </a>
 
-Reusable agent skills to turn rough AI-generated code, screens, and copy into polished, human-grade product experiences.
+  <h1>PerfectUX Skills</h1>
 
-The primary skill in this repository is `perfectux`. It works on any product or codebase out of the box and requires no external app, account, or MCP connection.
+  <p>
+    <strong>A non-invasive UX guidance layer for AI agents that works with any codebase<br>
+    and pairs with your UI skill to improve flows, states, copy, accessibility, and recovery.</strong>
+  </p>
 
-For teams using the [PerfectUX.ai](https://perfectux.ai) workspace, an optional extension skill `perfectux-workspace` is available to enable workspace resources and schema-driven modifications.
+  <p>
+    Use <code>perfectux</code> in any product or codebase, or add <code>perfectux-workspace</code><br>
+    when your agent should work with PerfectUX.ai workspace resources and schema-driven modifications.
+  </p>
+</div>
 
 ## Quick Start (Install)
 
@@ -14,7 +24,7 @@ Install the core UX skill:
 npx skills add perfectux/skills --skill perfectux
 ```
 
-This equips your agent with senior UX design, interface copy, accessibility, error recovery, and agentic interaction guidance.
+This equips your agent with senior product UX judgment, interface copy, accessibility, error recovery, and agentic interaction guidance.
 
 To list all available skills:
 ```bash
@@ -25,7 +35,7 @@ npx skills add perfectux/skills --list
 
 ## Core Skill: `perfectux`
 
-Use for any product or codebase. It does not assume access to PerfectUX.ai projects, schemas, screens, routes, or MCP tools.
+Use for any product or codebase. It is standalone UX guidance that applies without setup.
 
 ### Example Prompts
 - `"Use perfectux to improve this onboarding flow."`

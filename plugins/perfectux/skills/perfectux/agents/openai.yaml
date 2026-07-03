@@ -1,4 +1,4 @@
 interface:
   display_name: "PerfectUX"
-  short_description: "UX, copy, and agentic flow guardrails"
-  default_prompt: "Use $perfectux to make this product flow clear, usable, and recoverable."
+  short_description: "Non-invasive UX guidance layer"
+  default_prompt: "Use $perfectux to improve this product flow's UX, states, copy, accessibility, and recovery."
