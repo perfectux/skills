@@ -1,6 +1,6 @@
 ---
 name: perfectux-workspace
-description: Use when an AI agent is working with PerfectUX.ai projects, workspace data, MCP resources, canonical task artifacts, launch packages, marketing campaigns, docs, exports, or schema-driven modify tools. Requires or benefits from PerfectUX MCP; not for general UX guidance outside PerfectUX.ai.
+description: Use when an AI agent is working with PerfectUX.ai projects, workspace data, MCP resources, canonical task artifacts, launch packages, marketing campaigns, docs, exports, or schema-driven modify tools. Benefits from PerfectUX MCP, but can continue from repository or user-provided context when MCP is unavailable; not for general UX guidance outside PerfectUX.ai.
 ---
 
 # PerfectUX Workspace
@@ -22,8 +22,9 @@ Work safely with PerfectUX.ai workspace context, project artifacts, and MCP tool
    - Improve UX or copy.
    - Modify canonical task artifacts.
    - Update launch, marketing, docs, or export-adjacent workspace assets.
-4. Use schema-driven tools only for writes, and respect approval boundaries.
-5. Keep user-facing output friendly; never expose raw MCP JSON unless the surface is developer-facing and requested.
+4. For workspace-backed UX or copy work, use this skill for project context and write routing, and apply `perfectux` rules for UX judgment, state completeness, accessibility, recovery, and interface copy.
+5. Use schema-driven tools only for writes, and respect approval boundaries.
+6. Keep user-facing output friendly; never expose raw MCP JSON unless the surface is developer-facing and requested.
 
 ## Boundaries
 
