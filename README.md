@@ -102,10 +102,10 @@ Within your Codex terminal session:
 
 ### Optional: MCP Workspace Configuration
 
-If you want to use the workspace integration features (`perfectux-workspace` skill), configure the `perfectux` MCP server from [perfectux.ai/mcp](https://perfectux.ai/mcp).
+If you want to use the workspace integration features (`perfectux-workspace` skill), configure the `perfectux` MCP server from [blueprint.perfectux.ai/mcp](https://blueprint.perfectux.ai/mcp).
 
-- **Claude Code**: Follow the Claude Code setup guide at [perfectux.ai/mcp](https://perfectux.ai/mcp), or add the server through `/mcp add`.
-- **Codex**: Follow the Codex setup guide at [perfectux.ai/mcp](https://perfectux.ai/mcp), then enable the PerfectUX MCP server in Codex MCP settings.
+- **Claude Code**: Follow the Claude Code setup guide at [blueprint.perfectux.ai/mcp](https://blueprint.perfectux.ai/mcp), or add the server through `/mcp add`.
+- **Codex**: Follow the Codex setup guide at [blueprint.perfectux.ai/mcp](https://blueprint.perfectux.ai/mcp), then enable the PerfectUX MCP server in Codex MCP settings.
 
 Remote:
 

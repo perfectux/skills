@@ -9,4 +9,4 @@ dependencies:
       value: "perfectux"
       description: "Optional PerfectUX MCP server for projects, task artifacts, launch packages, marketing campaigns, docs, and exports."
       transport: "streamable_http"
-      url: "https://perfectux.ai/api/mcp"
+      url: "https://blueprint.perfectux.ai/api/mcp"
